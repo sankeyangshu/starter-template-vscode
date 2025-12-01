@@ -4,7 +4,7 @@
   "displayName": "ext-name",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.24.0",
   "description": "Starter Template for VS Code Extension",
   "author": {
     "name": "sankeyangshu",
@@ -30,7 +30,7 @@
     "res/*"
   ],
   "engines": {
-    "vscode": "^1.106.1"
+    "vscode": "^1.97.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -54,18 +54,18 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@types/node": "^24.10.1",
-    "@types/vscode": "^1.106.1",
+    "@types/vscode": "^1.97.0",
     "@vscode/vsce": "^3.7.1",
-    "bumpp": "^10.3.1",
+    "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.7",
     "rimraf": "^6.1.2",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.16.6",
-    "tsx": "^4.20.6",
+    "tsdown": "^0.16.8",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.4",
-    "vitest": "^4.0.13"
+    "vitest": "^4.0.14"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm typecheck && pnpm lint-staged",
